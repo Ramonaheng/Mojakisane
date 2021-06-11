@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:orientation="vertical"
+        android:background="#031A2E"
+        android:textColor="@color/white"
+        tools:context=".MainActivity">
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="LIMKOKWING COURSES"
+            android:textSize="18dp"
+            android:textColor="@color/white"
+            android:background="#1B1A1A"
+            android:layout_marginBottom="20dp"
+            android:paddingTop="10dp">
+        </TextView>
+
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:textColor="@color/white"
+            android:text="FRONT-END WEB DEVELOPMENT"
+            android:textSize="16dp"
+            android:background="#33465C"
+            android:layout_marginBottom="10dp" />
+
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="134dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal">
+
+            <ImageView
+
+                android:layout_width="110dp"
+                android:layout_height="150dp"
+                android:src="@drawable/web_deve"></ImageView>
+
+
+            <TextView
+
+                android:layout_width="279dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/white"
+                android:layout_marginBottom="10dp"
+                android:text="WEB DEVELOPMENT CONSISTS OF:\n\nHTML\nCSS \nJavaScript  :\nResponsive design \nJavascript Frameworks">
+
+            </TextView>
+
+
+        </LinearLayout>
+        <Button
+
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="150dp"
+            android:layout_marginRight="150dp"
+            android:layout_marginTop="4dp"
+            android:background="#162B93"
+            android:text="EXPLORE"
+            android:paddingRight="20dp"
+            android:paddingLeft="20dp"
+            android:layout_marginBottom="20dp">
+
+        </Button>
+
+
+
+        <TextView
+            android:background="#33465C"
+            android:layout_width="match_parent"
+            android:textSize="16dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:textColor="@color/white"
+            android:layout_height="wrap_content"
+            android:text="MOBILE APP DEVELOPMENT"
+            android:layout_marginBottom="10dp"></TextView>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="110dp"
+                android:layout_height="80dp"
+                android:src="@drawable/mobile_app"
+                ></ImageView>
+
+            <TextView
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_width="279dp"
+                android:textColor="@color/white"
+                android:layout_height="wrap_content"
+                android:text="MOBILE APP DEVELOPMENT CONSITS OF:\n\nFundamentals of Android Developemnt  :\nDesigning adaptive Application\nCross Platform with Flutter">
+
+            </TextView>
+
+
+        </LinearLayout>
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="150dp"
+            android:layout_marginRight="150dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="4dp"
+            android:text="EXPLORE"
+            android:background="#0A268C"
+            android:paddingRight="20dp"
+            android:paddingLeft="20dp">
+
+        </Button>
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="DATA SCIENCE"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:textColor="@color/white"
+            android:textSize="16dp"
+            android:background="#33465C"
+            android:layout_marginBottom="10dp"></TextView>
+
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="1dp"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="110dp"
+                android:layout_height="130dp"
+                android:src="@drawable/data_science"
+                ></ImageView>
+
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:layout_width="279dp"
+                android:textColor="@color/white"
+                android:layout_height="wrap_content"
+                android:text="Data Science CONSITS OF:\n\nExploratory Data Analysis :\nThe Programming Language\nStatistical Inference\nIntroduction to Machine Learning">
+
+            </TextView>
+
+
+        </LinearLayout>
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="150dp"
+            android:layout_marginRight="150dp"
+            android:layout_marginTop="1dp"
+            android:text="EXPLORE"
+            android:paddingRight="20dp"
+            android:paddingLeft="20dp"
+            android:background="#10239A">
+
+
+        </Button>
+
+
+
+
+
+    </LinearLayout>
+</ScrollView>
